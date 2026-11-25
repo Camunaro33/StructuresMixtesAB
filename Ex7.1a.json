@@ -1,0 +1,30 @@
+{
+  "gci2011_composite_beam": {
+    "version": "1.0",
+    "exported_by": "composite_beam_design.py",
+    "inputs": {
+      "description": "Ex.7.1 (a+b) — W410x54 | f'c=20 MPa | p=50% | nervures ⊥",
+      "structure_type": "plancher",
+      "section_name": "W410x54",
+      "fc": 20.0,
+      "Fy": 350.0,
+      "b_e": 2500.0,
+      "t_c": 65.0,
+      "h_d": 75.0,
+      "p": 0.5,
+      "L": 9.0,
+      "gamma_c": 22.56,
+      "ec_formula": "simplified",
+      "Ec_given": null,
+      "deck_type": "perp",
+      "d_stud": 19.0,
+      "h_stud": 115.0,
+      "w_d": 180.0,
+      "Fu_stud": 415.0,
+      "w_dead": 5.0,
+      "w_live": 8.0,
+      "alpha_D": 1.25,
+      "alpha_L": 1.5
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "gci2011_composite_beam": {
+    "version": "1.0",
+    "exported_by": "composite_beam_design.py",
+    "inputs": {
+      "description": "Ex.7.2 — W310x39 | f'c=20 MPa | p=40% | dalle pleine",
+      "structure_type": "plancher",
+      "section_name": "W310x39",
+      "fc": 20.0,
+      "Fy": 350.0,
+      "b_e": 2100.0,
+      "t_c": 130.0,
+      "h_d": 0.0,
+      "p": 0.4,
+      "L": 9.0,
+      "gamma_c": 25.0,
+      "ec_formula": "full",
+      "Ec_given": null,
+      "deck_type": "solid",
+      "d_stud": 19.0,
+      "h_stud": 115.0,
+      "w_d": 150.0,
+      "Fu_stud": 415.0,
+      "w_dead": 9.975,
+      "w_live": 6.3,
+      "alpha_D": 1.25,
+      "alpha_L": 1.5
+    }
+  }
+}

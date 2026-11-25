@@ -1,0 +1,31 @@
+{
+  "gci2011_composite_beam": {
+    "version": "1.0",
+    "exported_by": "composite_beam_design.py",
+    "inputs": {
+      "description": "Ex.7.4 — WWF1200x380 | PONT | f'c=35 MPa | p=100% | Ec=30000 MPa (donné)",
+      "structure_type": "pont",
+      "section_name": "WWF1200x380",
+      "fc": 35.0,
+      "Fy": 350.0,
+      "b_e": 1850.0,
+      "t_c": 200.0,
+      "h_d": 0.0,
+      "p": 1.0,
+      "L": 36.0,
+      "gamma_c": 24.0,
+      "ec_formula": "given",
+      "Ec_given": 30000.0,
+      "deck_type": "solid",
+      "d_stud": 20.0,
+      "h_stud": 150.0,
+      "w_d": 0.0,
+      "Fu_stud": 450.0,
+      "w_dead": 27.480000000000004,
+      "w_live": 11.0,
+      "P_conc": 100.0,
+      "alpha_D": 1.25,
+      "alpha_L": 1.5
+    }
+  }
+}
