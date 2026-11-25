@@ -11,7 +11,7 @@ import numpy as np
 #  PAGE CONFIG  — must be first Streamlit call
 # ══════════════════════════════════════════════════════════════════════════════
 st.set_page_config(
-    page_title="GCI-2011 · Poutre Composite",
+    page_title="GCI-2011 UL · Conception de Structures I",
     page_icon="🏗️",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -552,8 +552,9 @@ if not st.session_state.disclaimer_accepted:
     st.markdown("""
     <div class="hero-banner" style="text-align:center; padding:40px;">
         <div style="font-size:3em; margin-bottom:8px">🏗️</div>
-        <h1 style="color:#f1f5f9; margin:0 0 6px; font-size:2em; font-weight:800">Poutre Composite</h1>
-        <p style="color:#94a3b8; font-size:1.1em; margin:0">GCI-2011 · Université Laval · CSA S16:24 Ch.17</p>
+        <h1 style="color:#f1f5f9; margin:0 0 4px; font-size:1.9em; font-weight:800">GCI-2011 UL — Conception de Structures I</h1>
+        <p style="color:#06b6d4; font-size:1.05em; font-weight:600; margin:0 0 4px">Conception de plancher mixte acier-béton</p>
+        <p style="color:#64748b; font-size:0.9em; margin:0">Université Laval · Prof. Luca Sorelli · CSA S16:24 Ch.17</p>
     </div>""", unsafe_allow_html=True)
 
     st.markdown("""<div class="disclaimer-dark">
@@ -588,11 +589,14 @@ st.markdown("""
   <div style="display:flex; align-items:center; gap:20px; flex-wrap:wrap">
     <div style="font-size:2.8em">🏗️</div>
     <div>
-      <h1 style="color:#f1f5f9; margin:0; font-size:1.75em; font-weight:800; letter-spacing:-0.02em">
-        Conception de Poutre Composite
+      <h1 style="color:#f1f5f9; margin:0 0 2px; font-size:1.65em; font-weight:800; letter-spacing:-0.02em">
+        GCI-2011 UL — Conception de Structures I
       </h1>
-      <p style="color:#94a3b8; margin:4px 0 0; font-size:0.95em">
-        GCI-2011 · Université Laval · Prof. Luca Sorelli
+      <p style="color:#06b6d4; margin:0 0 4px; font-size:1.05em; font-weight:600">
+        Conception de plancher mixte acier-béton
+      </p>
+      <p style="color:#64748b; margin:0; font-size:0.88em">
+        Université Laval · Prof. Luca Sorelli
         &nbsp;·&nbsp; CSA S16:24 Ch.17 · Modules B1 &amp; B2
       </p>
     </div>
@@ -897,4 +901,4 @@ with tab5:
             st.markdown(f'<div class="formula-box">{content.replace(chr(10),"<br>")}</div>',unsafe_allow_html=True)
 
 # ── Footer ────────────────────────────────────────────────────────────────────
-st.markdown(f'<div style="text-align:center;color:#334155;font-size:0.78em;padding:20px 0;border-top:1px solid #1e293b;margin-top:24px">GCI-2011 Conception des structures I  ·  Université Laval  ·  Prof. Luca Sorelli  ·  CSA S16:24 Ch.17<br>Outil pédagogique — aucune responsabilité assumée  ·  Validé Ex.7.1–7.5  ·  Python {sys.version[:6]}</div>',unsafe_allow_html=True)
+st.markdown(f'<div style="text-align:center;color:#334155;font-size:0.78em;padding:20px 0;border-top:1px solid #1e293b;margin-top:24px">GCI-2011 UL — Conception de Structures I  ·  Conception de plancher mixte acier-béton<br>Université Laval  ·  Prof. Luca Sorelli  ·  CSA S16:24 Ch.17  ·  Outil pédagogique — aucune responsabilité assumée  ·  Validé Ex.7.1–7.5  ·  Python {sys.version[:6]}</div>',unsafe_allow_html=True)
